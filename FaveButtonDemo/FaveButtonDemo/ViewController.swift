@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FaveButton
 
 func color(_ rgbColor: Int) -> UIColor {
     return UIColor(
@@ -26,7 +25,7 @@ class ViewController: UIViewController, FaveButtonDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.heartButton?.setSelected(selected: true, animated: false)
+        self.heartButton?.setSelected(selected: false, animated: false)
         self.loveButton?.setSelected(selected: true, animated: false)
         self.loveButton?.setSelected(selected: false, animated: false)
     }
