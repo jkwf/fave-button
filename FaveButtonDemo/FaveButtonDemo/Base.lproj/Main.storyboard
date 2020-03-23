@@ -59,10 +59,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUv-ku-yeg" userLabel="heart" customClass="FaveButton" customModule="FaveButtonDemo" customModuleProvider="target">
-                                <rect key="frame" x="118.5" y="311.5" width="44" height="44"/>
+                                <rect key="frame" x="124.5" y="317.5" width="32" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="ICX-nz-LkC"/>
-                                    <constraint firstAttribute="width" constant="44" id="Xvm-2b-Lnp"/>
+                                    <constraint firstAttribute="height" constant="32" id="ICX-nz-LkC"/>
+                                    <constraint firstAttribute="width" constant="32" id="Xvm-2b-Lnp"/>
                                 </constraints>
                                 <state key="normal" image="heart-outline"/>
                                 <userDefinedRuntimeAttributes>
