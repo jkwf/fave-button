@@ -76,7 +76,7 @@ open class FaveButton: UIButton {
 		}
 	}
 	
-    convenience public init(frame: CGRect, faveIconNormal: UIImage?, selectImage: UIImage) {
+    convenience public init(frame: CGRect, faveIconNormal: UIImage?, _ selectImage: UIImage? = nil) {
 		self.init(frame: frame)
 		
 		guard let icon = faveIconNormal else {
